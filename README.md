@@ -10,3 +10,5 @@
 - Install Storybook using storybook-builder-vite
 
 ```npx sb@next init --builder storybook-builder-vite```
+
+- Clean up any junk Storybook or vite added
