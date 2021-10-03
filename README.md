@@ -18,3 +18,13 @@
 ### Options
 
 - Bundle all components into a single entry point. Add a file like "scripts/build.js" that imports then exports all components. See branch - 'bundle-all'
+
+- Bundle components into separate files with separate packages. Ensure that all components are within their own directory with a package.json. Add a file like "scripts/build.js", update package.json build script to point to it. Use Vite and Rollup to build. See branch 'bundle-all-separate-package'.
+
+- TODO - Bundle components into separate files with same package. Add a file like "scripts/build.js", update package.json build script to point to it. Use Vite and Rollup to build. See branch 'bundle-all-separate'.
+
+### Resources
+
+- [Multiple entry points/output in library mode?](https://github.com/vitejs/vite/discussions/1736)
+- [jmlivingston/react-components-library - rollup.config.js](https://github.com/jmlivingston/react-components-library/blob/master/scripts/build/rollup.config.js)
+
